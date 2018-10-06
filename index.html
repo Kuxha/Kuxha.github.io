@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+
+
+<a-scene>
+ 
+ <!-- rainbow -->
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="5" color="#FF0000"></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="4.5" color="#FF7F00"></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="4" color="#FFFF00"></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="3.5" color="#00FF00 "></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="3" color="blue"></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="2.5" color="#4B0082"></a-torus>
+  <a-torus geometry="arc:180" position="0 1.25 -5" radius="2" color="#9400D3"></a-torus>
+
+<!-- clouds -->
+
+
+  <a-entity geometry="primitive: circle; radius: 2" material="side: double" position="8 1.50 -10"></a-entity>
+  <a-entity geometry="primitive: circle; radius: 1.5" material="side: double" position="10 1.50 -10"></a-entity>
+  <a-entity geometry="primitive: circle; radius: 2" material="side: double" position="6 1.80 -10"></a-entity>
+
+
+    <a-entity geometry="primitive: circle; radius: 2" material="side: double" position="-8 1.50 -8"></a-entity>
+  <a-entity geometry="primitive: circle; radius: 1.5" material="side: double" position="-10 1.50 -8"></a-entity>
+  <a-entity geometry="primitive: circle; radius: 2" material="side: double" position="-6 1.80 -8"></a-entity>
+
+
+
+
+               
+  <a-sky color="#97CCF1"></a-sky>
+  <a-entity light="type:directional; castShadow:true;" position="-1 -1 3"></a-entity>
+</a-scene>
+  </body>
+</html>
